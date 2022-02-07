@@ -1,0 +1,2 @@
+# FavipiravirJarobetegMetaanalizis
+Járóbetegeknél alkalmazott favipiravir kezelés hatásosságára vonatkozó meta-analízis
