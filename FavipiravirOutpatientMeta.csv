@@ -1,0 +1,7 @@
+Study;Outcome;Subgroup;HR;CIlwr;CIupr;nT;nC
+Bosaeed 2022;Time to viral clearance;Placebo;0,87;0,571;1,326;112;119
+Bosaeed 2022;Time to clinical improvement;Placebo;0,894;0,639;1,25;112;119
+Holubar 2021;Time to viral clearance;Placebo;0,76;0,48;1,2;59;57
+Holubar 2021;Time to clinical improvement;Placebo;0,84;0,54;1,29;65;70
+Ruzhentsova 2021;Time to viral clearance;Standard of care;1,11;0,76;1,61;83;44
+Ruzhentsova 2021;Time to clinical improvement;Standard of care;1,65;1,08;2,52;83;44
