@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.width = 12, dpi = 300)
 
 ## Bevezető gondolatok, motiváció
 
-A favipiravir hatásosságára vonatkozóan számtalan primer tanulmány, és -- ebből fakadóan -- ma már jónéhány meta-analízis is elérhető. Ezek azonban túlnyomórészt kórházban ápolt betegekre vonatkozó eredményeket tartalmaznak. Jóval kevesebb eredmény van fennjáró betegek kezelésének hatásosságáról, meta-analízis pedig -- legjobb tudomásom szerint, nyilván a primer eredmények kis száma miatt is -- egyáltalán nem készült. Ez azért is fontos téma, mert a mai magyar helyzetben a járóbetegek kezelése az igazán releváns kérdés.
+A favipiravir hatásosságára vonatkozóan számtalan primer tanulmány, és -- ebből fakadóan -- ma már jónéhány meta-analízis is elérhető, ezek azonban túlnyomórészt kórházban ápolt betegekre vonatkozó eredményeket tartalmaznak. Jóval kevesebb eredmény van fennjáró betegek kezelésének hatásosságáról, meta-analízis pedig -- legjobb tudomásom szerint, nyilván a primer eredmények kis száma miatt is -- egyáltalán nem készült. Ez azért is fontos téma, mert a mai magyar helyzetben a járóbetegek kezelése az igazán releváns kérdés.
 
 Jelen tanulmányban egy rendkívül gyorsan összerakott, nem komoly tudományos igénnyel készült [irodalmi áttekintést és meta-analízist](https://tamas-ferenci.github.io/FerenciTamas_AKlinikaiGyogyszervizsgalatokAlapjai/n%C3%A9h%C3%A1ny-tov%C3%A1bbi-t%C3%A9mak%C3%B6r-a-gy%C3%B3gyszervizsg%C3%A1latok-t%C3%A9m%C3%A1j%C3%A1b%C3%B3l.html#a-bizony%C3%ADt%C3%A9kok-%C3%B6sszess%C3%A9ge-szeml%C3%A9let) adok erre a kérdésre.
 
@@ -140,11 +140,11 @@ forest(mClinical)
 
 ## Diszkusszió
 
-A vírusürítés megszűnéséig eltelő idő tekintetében nincs lényeges heterogenitás, és a két alcsoport sem tér el egymástól szignifikánsan. Az eredmény szerint a favipiravir ront a helyzeten (HR = 0.93), de nem szignifikáns mértékben (95% CI: 0,73--1.18). A klinikai javulás bekövetkezéséig eltelő idő esetében a két alcsoport már inkább eltér, de az összesített eredmény szerint a favipiravir hat ugyan (HR = 1.07), ám ez sem szignifikáns (95% CI: 0.71--1.61).
+A vírusürítés megszűnéséig eltelő idő tekintetében nincs lényeges heterogenitás, és a két alcsoport sem tér el egymástól szignifikánsan. Az eredmény szerint a favipiravir ront a helyzeten (HR = 0,93), de nem szignifikáns mértékben (95% CI: 0,73--1,18). A klinikai javulás bekövetkezéséig eltelő idő esetében a két alcsoport már inkább eltér; az összesített eredmény szerint a favipiravir hat ugyan (HR = 1,07), ám nem szignifikáns mértékben (95% CI: 0,71--1,61).
 
 _A favipiravirnak egyetlen végpontra sem sikerült szignifikáns hatását igazolni._
 
-Fontos: ne felejtsük el a 'bizonyíték hiánya nem a hiány bizonyítéka' [elvet](https://tamas-ferenci.github.io/FerenciTamas_AKlinikaiGyogyszervizsgalatokAlapjai/a-v%C3%A9letlen-ingadoz%C3%A1s-k%C3%A9rd%C3%A9sk%C3%B6re.html#a-kutat%C3%A1s-ereje-%C3%A9s-mintanagys%C3%A1ga)! Különösen a klinikai javulás esetében elég széles a konfidenciaintervallum, így még egy jelentékenyebb javítást (és persze egy komolyabb rontást) sem tudunk kizárni.
+Fontos: ne felejtsük el a 'bizonyíték hiánya nem a hiány bizonyítéka' [elvet](https://tamas-ferenci.github.io/FerenciTamas_AKlinikaiGyogyszervizsgalatokAlapjai/a-v%C3%A9letlen-ingadoz%C3%A1s-k%C3%A9rd%C3%A9sk%C3%B6re.html#a-kutat%C3%A1s-ereje-%C3%A9s-mintanagys%C3%A1ga)! Különösen a klinikai javulás esetében elég széles a konfidenciaintervallum, így még egy jelentékenyebb javítást (és persze egy komolyabb rontást) sem tudunk elvetni.
 
 ## Továbbfejlesztési ötletek
 

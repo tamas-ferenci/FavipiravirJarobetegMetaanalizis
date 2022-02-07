@@ -6,7 +6,7 @@ Ferenci Tamás
 ## Bevezető gondolatok, motiváció
 
 A favipiravir hatásosságára vonatkozóan számtalan primer tanulmány, és –
-ebből fakadóan – ma már jónéhány meta-analízis is elérhető. Ezek azonban
+ebből fakadóan – ma már jónéhány meta-analízis is elérhető, ezek azonban
 túlnyomórészt kórházban ápolt betegekre vonatkozó eredményeket
 tartalmaznak. Jóval kevesebb eredmény van fennjáró betegek kezelésének
 hatásosságáról, meta-analízis pedig – legjobb tudomásom szerint, nyilván
@@ -203,11 +203,11 @@ forest(mClinical)
 
 A vírusürítés megszűnéséig eltelő idő tekintetében nincs lényeges
 heterogenitás, és a két alcsoport sem tér el egymástól szignifikánsan.
-Az eredmény szerint a favipiravir ront a helyzeten (HR = 0.93), de nem
-szignifikáns mértékben (95% CI: 0,73–1.18). A klinikai javulás
-bekövetkezéséig eltelő idő esetében a két alcsoport már inkább eltér, de
-az összesített eredmény szerint a favipiravir hat ugyan (HR = 1.07), ám
-ez sem szignifikáns (95% CI: 0.71–1.61).
+Az eredmény szerint a favipiravir ront a helyzeten (HR = 0,93), de nem
+szignifikáns mértékben (95% CI: 0,73–1,18). A klinikai javulás
+bekövetkezéséig eltelő idő esetében a két alcsoport már inkább eltér; az
+összesített eredmény szerint a favipiravir hat ugyan (HR = 1,07), ám nem
+szignifikáns mértékben (95% CI: 0,71–1,61).
 
 *A favipiravirnak egyetlen végpontra sem sikerült szignifikáns hatását
 igazolni.*
@@ -216,7 +216,7 @@ Fontos: ne felejtsük el a ‘bizonyíték hiánya nem a hiány bizonyítéka’
 [elvet](https://tamas-ferenci.github.io/FerenciTamas_AKlinikaiGyogyszervizsgalatokAlapjai/a-v%C3%A9letlen-ingadoz%C3%A1s-k%C3%A9rd%C3%A9sk%C3%B6re.html#a-kutat%C3%A1s-ereje-%C3%A9s-mintanagys%C3%A1ga)!
 Különösen a klinikai javulás esetében elég széles a
 konfidenciaintervallum, így még egy jelentékenyebb javítást (és persze
-egy komolyabb rontást) sem tudunk kizárni.
+egy komolyabb rontást) sem tudunk elvetni.
 
 ## Továbbfejlesztési ötletek
 
