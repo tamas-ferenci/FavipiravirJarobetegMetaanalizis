@@ -102,7 +102,7 @@ A mostani elemzésben felhasznált konkrét számok, azok cikkbeli forrásával 
 
 Hazárdhányadosok analízise célszerűen log-skálán [történhet](https://training.cochrane.org/handbook/current/chapter-06#section-6-1-2-1). A pontbecslés egyszerűen logaritmálható, a standard hiba meghatározása nem nehéz feladat, ha a konfidenciaintervallumot közölték a cikkek, ahogy az jelen esetben történt ([Tierney et al, 2007](https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-8-16)). Megfelelő szoftvercsomaggal azonban erre sem lesz szükség.
 
-Az analízist `R` statisztikai környezet alatt, a `meta` csomag használatával végezzük. Töltsük be a szükséges csomagot és olvassuk be az adatokat (a nyers adatokat külön is elérhetővé tettem):
+Az analízist `R` statisztikai környezet alatt, a `meta` csomag használatával végezzük. Töltsük be a szükséges csomagot és olvassuk be az adatokat (a nyers adatokat külön is [elérhetővé tettem](https://raw.githubusercontent.com/tamas-ferenci/FavipiravirJarobetegMetaanalizis/main/FavipiravirOutpatientMeta.csv)):
 
 ```{r, message = FALSE}
 library(meta)

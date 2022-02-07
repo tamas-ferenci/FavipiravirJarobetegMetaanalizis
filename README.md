@@ -154,7 +154,8 @@ Megfelelő szoftvercsomaggal azonban erre sem lesz szükség.
 
 Az analízist `R` statisztikai környezet alatt, a `meta` csomag
 használatával végezzük. Töltsük be a szükséges csomagot és olvassuk be
-az adatokat (a nyers adatokat külön is elérhetővé tettem):
+az adatokat (a nyers adatokat külön is [elérhetővé
+tettem](https://raw.githubusercontent.com/tamas-ferenci/FavipiravirJarobetegMetaanalizis/main/FavipiravirOutpatientMeta.csv)):
 
 ``` r
 library(meta)
