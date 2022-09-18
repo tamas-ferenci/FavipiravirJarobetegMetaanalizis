@@ -223,7 +223,7 @@ a konfidenciaintervallumot (log-skálán), innen már mindent számolt a
 ## Eredmények
 
 A vírusürítés megszűnéséig eltelő időre vonatkozó meta-analízis
-eredménye:
+eredménye[^1]:
 
 ``` r
 meta::forest(mViral)
@@ -264,3 +264,10 @@ egy komolyabb rontást) sem tudunk elvetni.
 
 -   Érdekes lehetne egy bayes-i reanalízis elvégzése (tekintettel az
     utolsóként említett kérdéskörre).
+
+[^1]: Az ábrán azért 1,62 a Ruzhentsova 2021 esetén a
+    konfidenciaintervallum felső széle – és nem 1,61 mint a nyers adatok
+    között – mert a cikkben közölt konfidenciaintervallum egy
+    leheletnyit nem konzisztens (log-skálán nem szimmetrikus);
+    valószínűleg egy minimális kerekítési hiba van benne. Itt ezt
+    javítja – szimmetrizálja – a számítás a `meta` csomagban.

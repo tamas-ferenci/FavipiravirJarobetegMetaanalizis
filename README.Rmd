@@ -152,7 +152,7 @@ Mint látható, a standard hibát nem számoltuk kézzel, egyszerűen átadtuk a
 
 ## Eredmények
 
-A vírusürítés megszűnéséig eltelő időre vonatkozó meta-analízis eredménye:
+A vírusürítés megszűnéséig eltelő időre vonatkozó meta-analízis eredménye^[Az ábrán azért 1,62 a Ruzhentsova 2021 esetén a konfidenciaintervallum felső széle -- és nem 1,61 mint a nyers adatok között -- mert a cikkben közölt konfidenciaintervallum egy leheletnyit nem konzisztens (log-skálán nem szimmetrikus); valószínűleg egy minimális kerekítési hiba van benne. Itt ezt javítja -- szimmetrizálja -- a számítás a `meta` csomagban.]:
 
 ```{r}
 meta::forest(mViral)
